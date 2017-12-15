@@ -1,0 +1,38 @@
+{
+	"name": "wikimedia-page-views",
+	"description": "Fetch daily view count for given page on given wikimedia site for a defined date interval.",
+	"version": "0.0.0",
+	"keywords": [
+		"wikimedia",
+		"wikipedia",
+		"day",
+		"count",
+		"view",
+		"daily"
+	],
+	"author": "Julius Tens <mail@juliustens.de>",
+	"homepage": "https://github.com/juliuste/wikimedia-page-views",
+	"repository": "juliuste/wikimedia-page-views",
+	"bugs": "https://github.com/juliuste/wikimedia-page-views/issues",
+	"main": "./index.js",
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"got": "^8.0.1",
+		"lodash.isdate": "^4.0.1",
+		"lodash.isstring": "^4.0.1",
+		"moment": "^2.19.4"
+	},
+	"devDependencies": {
+		"tape": "^4.8.0"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"prepare": "npm test"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"license": "ISC"
+}
