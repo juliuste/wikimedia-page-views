@@ -19,7 +19,7 @@
 		"index.js"
 	],
 	"dependencies": {
-		"got": "^9.0.0",
+		"got": "^10.3.0",
 		"lodash.isdate": "^4.0.1",
 		"lodash.isstring": "^4.0.1",
 		"moment": "^2.19.4"
