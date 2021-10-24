@@ -1,3 +1,5 @@
+# :warning: UNMAINTAINED
+
 # wikimedia-page-views
 
 Fetch daily view count for given page on given wikimedia site for a defined date interval using [this API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews). Work in progress.
